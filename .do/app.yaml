@@ -69,7 +69,7 @@ jobs:
     value: ${db.DATABASE_URL}
   git:
     branch: production-3
-    repo_clone_url: https://github.com/codingforentrepreneurs/Try-Django-3.2.git
+    repo_clone_url: https://github.com/BalodiShubham377/Django
   instance_count: 1
   instance_size_slug: basic-xxs
   kind: PRE_DEPLOY
@@ -86,7 +86,7 @@ services:
     value: ${db.DATABASE_URL}
   git:
     branch: production-3
-    repo_clone_url: https://github.com/codingforentrepreneurs/Try-Django-3.2.git
+    repo_clone_url: https://github.com/BalodiShubham377/Django
   http_port: 8080
   instance_count: 1
   instance_size_slug: basic-xxs
